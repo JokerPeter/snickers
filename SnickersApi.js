@@ -59,6 +59,32 @@ class SnickersApi {
           'currency': 'USD',
           'locale': 'en_US',
           'channel': 'NIKECOM',
+          'items': [{
+            'id': '',
+            'skuId': '',
+            'shippingAddress': {
+              'address1': '',
+              'address2': '',
+              'city': '',
+              'state': '',
+              'country': '',
+              'postalCode': '',
+              'preferred': false,
+              'email': '',
+              'phoneNumber': '',
+              'addressId': ''
+            },
+            'recipient': {
+
+            },
+            'shippingMethod': 'STANDARD',
+            'quantity': 1,
+            'contactInfo': {
+              'phoneNumber': '',
+              'email': ''
+            }
+          }],
+          'promotionCodes': []
         }
       }
     }
